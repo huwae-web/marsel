@@ -1,0 +1,89 @@
+<!DOCTYPE html>
+<html lang="id">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Website Pribadi Ifan</title>
+  <link rel="stylesheet" href="style.css" />
+  <link href="https://fonts.googleapis.com/css2?family=Orbitron:wght@400;700&display=swap" rel="stylesheet">
+</head>
+<body>
+  <nav class="navbar">
+    <ul>
+      <li><a href="#home" aria-label="Beranda">Beranda</a></li>
+      <li><a href="#about" aria-label="Tentang Saya">Tentang Saya</a></li>
+      <li><a href="#skills" aria-label="Kemampuan">Kemampuan</a></li>
+      <li><a href="#pendidikan" aria-label="Pendidikan">Pendidikan</a></li>
+      <li><a href="#galeri" aria-label="Galeri">Galeri</a></li>
+      <li><a href="#kontak" aria-label="Kontak">Kontak</a></li>
+    </ul>
+  </nav>
+
+  <section id="home" class="section hero">
+    <h1>Hai, Saya Marsel</h1>
+    <p>Selamat datang di website pribadi saya.</p>
+  </section>
+
+  <section id="about" class="section">
+    <h2>Tentang Saya</h2>
+    <p>Saya adalah seorang pelajar di ilmu komputer UKIM yang terobsesi dengan coding. Saya sedang belajar menjadi frontend Developer, tidak menutup kemungkinan saya akan pelajari backend.</p>
+  </section>
+
+  <section id="skills" class="section">
+    <h2>Kemampuan</h2>
+    <div class="skill">
+      <p>HTML</p>
+      <div class="bar"><div class="progress html"></div></div>
+    </div>
+    <div class="skill">
+      <p>CSS</p>
+      <div class="bar"><div class="progress css"></div></div>
+    </div>
+    <div class="skill">
+      <p>JavaScript</p>
+      <div class="bar"><div class="progress js"></div></div>
+    </div>
+    <div class="skill">
+      <p>EpEp</p>
+      <div class="bar"><div class="progress epep"></div></div>
+    </div>
+  </section>
+
+  <section id="pendidikan" class="section">
+    <h2>Pendidikan</h2>
+    <ul>
+        <li>SD Negeri Allang Asaude (2011 - 2017)</li>
+        <li>SMPN 1 Huamual Belakang (2017 - 2020)</li>
+        <li>SMAN 1 Seram Bagian Barat (2020 - 2023)</li>
+        <li>Universitas Kristen Indonesia Maluku (2023 - Sekarang)</li>
+    </ul>
+  </section>
+
+  <section id="galeri" class="section">
+    <h2>Galeri Foto</h2>
+    <div class="galeri-container" id="album-container">
+      <img src="1.jpg" alt="Foto Ifan 1">
+      <img src="ifan.jpg" alt="Foto Ifan 2">
+      <img src="5.jpg" alt="Foto Ifan 3">
+    </div>
+  </section>
+
+  <section id="kontak" class="section">
+    <h2>Kontak</h2>
+    <p>Email: marselhuwae839@gmail.com</p>
+    <p>Instagram: <a href="https://instagram.com/414Huwae_" target="_blank">@414Huwae_</a></p>
+    <p>Tiktok: <a href="https://www.tiktok.com/@huwae_dx" target="_blank">@huwae_dx_</a></p>
+  </section>
+
+  <footer>
+    <p>&copy; 2025 Ifan. All Rights Reserved.</p>
+  </footer>
+
+  <div id="modal" class="modal" aria-label="Galeri Modal">
+    <span class="close" aria-label="Tutup">&times;</span>
+    <img class="modal-content" id="modal-img" alt="Gambar Modal"/>
+  </div>
+
+  <script src="script.js"></script>
+</body>
+</html>
